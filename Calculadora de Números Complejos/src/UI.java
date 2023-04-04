@@ -13,7 +13,7 @@ public class UI {
 		int opcion = 0;
 		
 		while(opcion != 7) {
-			System.out.println("\t\tCalculadora de Números Complejos\n\n\n");
+			System.out.println("\t\tCalculadora de Números Complejos\n\n\n"); 
 			
 			imprimirMenu();
 			

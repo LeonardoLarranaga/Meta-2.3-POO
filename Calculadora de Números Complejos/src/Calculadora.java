@@ -6,7 +6,7 @@ public class Calculadora {
         return new Complejo(real, imaginario);
     }
     
-    public static Complejo restar(Complejo num1, Complejo num2) {
+    public static Complejo restar(Complejo num1, Complejo num2) { 
     	double real = num1.getReal() - num2.getReal();
     	double imaginario = num1.getImaginario() - num2.getImaginario();
         return new Complejo(real, imaginario);
