@@ -1,7 +1,7 @@
 
 package Dados;
 
-import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.Random;
 
 /**
@@ -10,7 +10,7 @@ import java.util.Random;
  * @author kadir
  */
 public class Dados {
-    private ArrayList<Dado> dados = new ArrayList<Dado>();
+    private HashMap <Integer, Dado> dados = new HashMap<>();
     
     public Dados(){
     }
@@ -22,9 +22,9 @@ public class Dados {
         
         for (int i = 0; i < cd; i++) {
             if(rdm.nextInt(2) == 0)
-                dados.add(new Dado(6));
+                dados.put(i, new Dado(6));
             else
-                dados.add(new Dado(12));
+                dados.put(i, new Dado(12));
         }
     }
     
