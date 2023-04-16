@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.Random;
 
 /**
- * Clase que representa un ArrayList de dados.
+ * Clase que representa un HashMap de dados.
  * Contiene métodos para generar dados y tirarlos, así como mostarlos.
  * @author kadir
  */
