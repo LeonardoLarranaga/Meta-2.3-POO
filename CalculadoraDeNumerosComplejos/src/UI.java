@@ -28,13 +28,7 @@ public class UI {
 				
 				System.out.println("Ingrese la parte imaginaria del número complejo.");
 				double imaginario = scanner.nextDouble();
-				
-//				while(imaginario != 0) {
-//					System.out.println("La parte imaginaria no puede ser 0.");
-//					System.out.println("Ingrese la parte imaginaria del número complejo.");
-//					imaginario = scanner.nextInt();
-//				}
-				
+
 				if (opcion == 1) {
 					num1 = new Complejo(real, imaginario);
 				} else {
