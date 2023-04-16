@@ -1,16 +1,16 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package Baraja;
 
 /**
- *
+ * Clase que representa una carta de baraja.
+ * @param valor Valor de la carta (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, J, Q, K A)
+ * @param figura Figura de la carta (diamantes, corazones, espadas, picas, tréboles)
+ * A partir de la figura se puede obtener el color de la carta.
  * @author kadir
  */
 public class Carta {
   
   private int valor;
+  private Figura figura;
   
   public Carta(){
   
@@ -23,7 +23,7 @@ public class Carta {
   public Figura getFigura() {
     return figura;
   }
-  private Figura figura;
+  
   
   public Color getColor() {
     return((figura == Figura.CORAZONES || figura == Figura.DIAMANTES)? Color.ROJO : Color.NEGRO);

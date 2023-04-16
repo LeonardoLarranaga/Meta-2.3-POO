@@ -1,11 +1,8 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package Baraja;
 
 /**
- *
+ * Clase baraja que representa las 52 cartas de un mazo.
+ * @param mazo ArrayList de tipo Carta que representa un mazo de cartas.
  * @author kadir
  */
 import java.util.ArrayList;

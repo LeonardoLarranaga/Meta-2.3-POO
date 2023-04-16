@@ -3,6 +3,10 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.Scanner;
 
+/**
+ * Clase Moneda, representa toda la aplicación.
+ */
+
 public class Moneda {
 	private final static String[] caras = {"Sol", "Águila"}; 
 

@@ -1,11 +1,7 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package Baraja;
 
 /**
- *
+ * Excepción que se utiliza cuándo un valor no se encuentra dentro del rango posible de valores de las cartas.
  * @author kadir
  */
 public class FueraDeRangoException extends Exception {

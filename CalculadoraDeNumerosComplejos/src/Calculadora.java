@@ -1,3 +1,14 @@
+/**
+ * Clase Calculadora.
+ * Contiene 4 métodos estáticos para:
+ *	- sumar
+ *	- restar
+ *	- dividir
+ *	- multipliar
+ * números complejos.
+ * Las 4 clases regresa un valor de tipo Complejo (resultado de la operación).
+ */
+
 public class Calculadora {
     
     public static Complejo sumar(Complejo num1, Complejo num2) {

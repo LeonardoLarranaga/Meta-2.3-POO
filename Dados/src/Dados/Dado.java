@@ -1,13 +1,11 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package Dados;
 
 import java.util.Random;
 
 /**
- *
+ * Clase que representa un Dado con n número de caras.
+ * @param cantidadCaras El número de caras que contiene el dado.
+ * @param caraVisible El valor de la cara visible del dado.
  * @author kadir
  */
 public class Dado {

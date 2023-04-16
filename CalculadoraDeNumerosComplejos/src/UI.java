@@ -1,5 +1,10 @@
 import java.util.Scanner;
 
+
+/**
+ * Clase UI que contiene el método main para iniciar la aplicación.
+ */
+
 public class UI {
 
 	public static void main(String[] args) {

@@ -1,5 +1,11 @@
 import java.text.DecimalFormat;
 
+/**
+ * Clase Complejo que representa un número complejo.
+ * @param real La parte real del número complejo.
+ * @param imaginario La parte imaginara del número complejo.
+ */
+
 public class Complejo {
 	private double real;
 	private double imaginario;

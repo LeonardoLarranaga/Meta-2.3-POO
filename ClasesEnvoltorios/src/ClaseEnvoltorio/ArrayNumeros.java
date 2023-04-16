@@ -4,9 +4,13 @@ import java.util.ArrayList;
 import java.util.Random;
 
 /**
+ * Clase que representa un ArrayList de números.
+ * @param numeros ArrayList de números.
+ * Contiene métodos para mostrar las iteraciones y llenar el ArrayList.
  *
  * @author Kadir y Leo.
  */
+
 public class ArrayNumeros {
     private ArrayList<Integer> numeros = new ArrayList<Integer>();
     

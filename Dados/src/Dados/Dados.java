@@ -1,18 +1,16 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package Dados;
 
 import java.util.ArrayList;
 import java.util.Random;
 
 /**
- *
+ * Clase que representa un ArrayList de dados.
+ * Contiene métodos para generar dados y tirarlos, así como mostarlos.
  * @author kadir
  */
 public class Dados {
-    private ArrayList<Dado> dados = new ArrayList();
+    private ArrayList<Dado> dados = new ArrayList<Dado>();
     
     public Dados(){
     }
