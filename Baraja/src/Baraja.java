@@ -1,12 +1,9 @@
-package Baraja;
-
 /**
  * Clase baraja que representa las 52 cartas de un mazo.
  * @param mazo ArrayList de tipo Carta que representa un mazo de cartas.
  * @author kadir
  */
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Random;
 
 public class Baraja {

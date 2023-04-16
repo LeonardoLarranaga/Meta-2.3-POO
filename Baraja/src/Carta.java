@@ -1,5 +1,3 @@
-package Baraja;
-
 /**
  * Clase que representa una carta de baraja.
  * @param valor Valor de la carta (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, J, Q, K A)
@@ -30,7 +28,7 @@ public class Carta {
   }
 
   public Carta(int valor, Figura figura) throws FueraDeRangoException{
-    if(valor <1 || valor > 13)
+    if(valor < 1 || valor > 13)
       throw new FueraDeRangoException("Valor "+valor+ " fuera de rango");
     this.valor = valor;
     this.figura = figura;

@@ -1,5 +1,3 @@
-package Baraja;
-
 /**
  * Clase Run que contiene el método main para iniciar la aplicación.
  * @author kadir

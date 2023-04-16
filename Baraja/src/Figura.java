@@ -1,4 +1,4 @@
-package Baraja;
+
 
 /**
  * Enumaración Figura que contiene los valores posibles para las figuras de las cartas.
