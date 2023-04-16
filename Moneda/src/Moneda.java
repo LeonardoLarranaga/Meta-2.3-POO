@@ -1,5 +1,6 @@
 import java.util.Random;
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.Scanner;
 
 public class Moneda {
@@ -24,15 +25,18 @@ public class Moneda {
 			case 1:
 				System.out.println("\n\nLanzando moneda...");
 				String resultado = caras[random.nextInt(2)];
-				System.out.println("¡Tiraste " + resultado + "!");
 				carasAleatorias.add(resultado);
+				System.out.println("¡Tiraste " + resultado + "!");
 				break;
 				
 			case 2:
 				System.out.println("\n\nResultados anteriores:");
-				for (int i = 0; i < carasAleatorias.size(); i++) {
-					System.out.println(i + ". " + carasAleatorias.get(i));
+				
+				for (Iterator<String> iterator = carasAleatorias.iterator(); iterator.hasNext();) {
+					String string = (String) iterator.next();
+					System.out.println(string);
 				}
+				
 				break;
 				
 			case 3:
