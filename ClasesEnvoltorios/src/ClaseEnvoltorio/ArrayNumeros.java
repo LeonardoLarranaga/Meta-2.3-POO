@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package ClaseEnvoltorio;
 
 import java.util.ArrayList;
@@ -9,28 +5,28 @@ import java.util.Random;
 
 /**
  *
- * @author kadir
+ * @author Kadir y Leo.
  */
 public class ArrayNumeros {
-    private ArrayList<Integer> numeros = new ArrayList();
+    private ArrayList<Integer> numeros = new ArrayList<Integer>();
     
-    public void llenarArryaList(int cantidad){
-        Random rdm= new Random();
+    public void llenarArrayList(int cantidad){
+        Random rdm = new Random();
         
         for (int i = 0; i < cantidad; i++) {
             numeros.add(rdm.nextInt(12));
         }
     }
     
-    public int getNumero(int posicion){
-        return numeros.get(posicion);
+    public ArrayList<Integer> getNumeros() {
+    	return numeros;
     }
             
     public void mostrarIteraciones(){
-        ArrayList<Integer> iteraciones= new ArrayList();
+        ArrayList<Integer> iteraciones= new ArrayList<Integer>();
         int it = 0;
         
-        for (int j = 0; j < 12; j++) {
+        for (int j = 0; j <= 11; j++) {
             for (int i = 0; i < numeros.size(); i++) {
                 if(numeros.get(i) == j){
                     it = it + 1;
@@ -40,7 +36,7 @@ public class ArrayNumeros {
             it = 0;
         }
         
-        for (int i = 0; i < 12; i++) {
+        for (int i = 0; i <= 11; i++) {
             System.out.println(i + ": " + iteraciones.get(i));
         }
         
